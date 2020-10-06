@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+:root{
+  --mainBtnred:#c51162;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+input[type='text'],
+input[type='number'],
+input[type='email']
+ {
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+.form-control{
+  border: 0px solid #ced4da;
+}
+
+
+.autoComplete{
+  width: 50%;
+ padding-top: 100px;
+ margin: 0 auto;
+}
+ul.suggestions{
+  max-height: 200px;
+  overflow: auto;
+  margin-left: 0;
+  padding-left: 0;
+  background: #dddddd57;
+}
+ul.suggestions li{
+  margin-bottom: 19px;
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+}
+ul.suggestions li p{
+  margin-top: 0;
+  margin-bottom: 0px;
+}
